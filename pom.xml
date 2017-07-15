@@ -39,7 +39,7 @@
     <packaging>pom</packaging>
 
     <name>Dollar Parent Project</name>
-    <description>Lightweight, dynamic programming on the JVM</description>
+    <description>Dollar: Integration centric reactive dynamic programming language for the JVM</description>
 
     <ciManagement>
         <url>https://circleci.com/gh/sillelien/dollar-parent/tree/master</url>
