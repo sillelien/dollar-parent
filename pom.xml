@@ -38,11 +38,13 @@
     <version>0.1</version>
     <packaging>pom</packaging>
 
-    <name>Dollar</name>
+    <name>Dollar Parent Project</name>
     <description>Lightweight, dynamic programming on the JVM</description>
+
     <ciManagement>
-        <url>https://circleci.com/gh/sillelien/dollar/tree/master</url>
+        <url>https://circleci.com/gh/sillelien/dollar-parent/tree/master</url>
     </ciManagement>
+
     <developers>
         <developer>
             <name>Neil Ellis</name>
@@ -68,19 +70,10 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/sillelien/dollar/blob/master/</url>
-        <connection>scm:git:git@github.com:sillelien/dollar.git</connection>
-        <developerConnection>scm:git:git@github.com:sillelien/dollar.git</developerConnection>
+        <url>https://github.com/sillelien/dollar-parent/blob/master/</url>
+        <connection>scm:git:git@github.com:sillelien/dollar-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:sillelien/dollar-parent.git</developerConnection>
     </scm>
-
-    <modules>
-        <module>dollar-resolver</module>
-        <module>dollar-runtime</module>
-        <module>dollar-plugins</module>
-        <module>dollar-script</module>
-        <module>dollar-examples</module>
-        <module>dollar-docs</module>
-    </modules>
 
     <prerequisites>
         <maven>3.3</maven>
