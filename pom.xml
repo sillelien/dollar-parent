@@ -111,6 +111,11 @@
                 <version>0.9.124</version>
             </dependency>
             <dependency>
+                <groupId>com.sillelien</groupId>
+                <artifactId>dollar-mapdb</artifactId>
+                <version>0.1.6</version>
+            </dependency>
+            <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-core</artifactId>
                 <version>${jackson.version}</version>
