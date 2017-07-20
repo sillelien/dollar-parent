@@ -22,9 +22,14 @@ jobs:
             key: dependency-cache
 
         - run:
+            name: init
+            command: /home/circleci/.build-init.sh
+
+        - run:
             name: dependencies
             command: |
               ~/build-utils/maven_make_deps.sh
+
         - save_cache:
             key: dependency-cache
             paths:
