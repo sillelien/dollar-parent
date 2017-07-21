@@ -366,11 +366,7 @@
                 </exclusions>
             </dependency>
 
-            <dependency>
-                <groupId>com.sillelien</groupId>
-                <artifactId>github-api</artifactId>
-                <version>0.1.44</version>
-            </dependency>
+         
             <dependency>
                 <groupId>com.jayway.restassured</groupId>
                 <artifactId>rest-assured</artifactId>
