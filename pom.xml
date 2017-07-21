@@ -90,11 +90,6 @@
         <developerConnection>scm:git:git@github.com:sillelien/dollar-parent.git</developerConnection>
     </scm>
 
-    <prerequisites>
-        <maven>3.3</maven>
-    </prerequisites>
-
-
     <dependencies>
 
         <dependency>
@@ -366,7 +361,7 @@
                 </exclusions>
             </dependency>
 
-         
+
             <dependency>
                 <groupId>com.jayway.restassured</groupId>
                 <artifactId>rest-assured</artifactId>
