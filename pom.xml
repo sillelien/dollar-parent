@@ -21,16 +21,32 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <jdk.version>1.8</jdk.version>
-        <kotlin.version>0.8.11</kotlin.version>
-        <camel.version>2.15.2</camel.version>
-        <httpclient.version>4.5.3</httpclient.version>
-        <jackson.version>2.6.1</jackson.version>
-        <orientdb.version>2.0.13</orientdb.version>
-        <maven.version>3.3.9</maven.version>
-        <slf4j.version>1.7.12</slf4j.version>
+
+        <annotations.version>15.0</annotations.version>
+        <bcel.version>2.0.2</bcel.version>
         <buildNumber>0</buildNumber>
+        <camel.version>2.19.1</camel.version>
+        <commons-io.version>2.4</commons-io.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <commons-logging.version>1.2</commons-logging.version>
+        <findbugs-maven-plugin.version>3.0.2</findbugs-maven-plugin.version>
+        <httpclient.version>4.5.3</httpclient.version>
+        <httpclient.version>4.5.3</httpclient.version>
+        <httpclient.version>4.5</httpclient.version>
+        <jackson.version>2.6.1</jackson.version>
+        <jdk.version>1.8</jdk.version>
+        <json.version>20160212</json.version>
+        <junit.version>4.12</junit.version>
+        <kotlin.version>0.8.11</kotlin.version>
+        <maven.version>3.3.9</maven.version>
+        <orientdb.version>2.0.13</orientdb.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <rest-assured.version>2.5.0</rest-assured.version>
+        <slf4j.version>1.7.12</slf4j.version>
+        <snakeyaml.version>1.15</snakeyaml.version>
+        <stateless4j.version>2.5.0</stateless4j.version>
+
     </properties>
 
     <groupId>com.sillelien</groupId>
@@ -96,21 +112,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.sillelien</groupId>
-                <artifactId>dollar-core</artifactId>
-                <version>0.3.242</version>
-            </dependency>
-            <dependency>
-                <groupId>com.sillelien</groupId>
-                <artifactId>java-as-script</artifactId>
-                <version>0.9.124</version>
-            </dependency>
-            <dependency>
-                <groupId>com.sillelien</groupId>
-                <artifactId>dollar-mapdb</artifactId>
-                <version>0.1.6</version>
-            </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-core</artifactId>
