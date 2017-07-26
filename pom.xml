@@ -756,13 +756,13 @@
                             <excludeTags>slow</excludeTags>
                         </properties>
                     </configuration>
-                    <dependencies>
-                        <dependency>
-                            <groupId>org.junit.platform</groupId>
-                            <artifactId>junit-platform-surefire-provider</artifactId>
-                            <version>${junit.platform.version}</version>
-                        </dependency>
-                    </dependencies>
+                    <!--<dependencies>-->
+                        <!--<dependency>-->
+                            <!--<groupId>org.junit.platform</groupId>-->
+                            <!--<artifactId>junit-platform-surefire-provider</artifactId>-->
+                            <!--<version>${junit.platform.version}</version>-->
+                        <!--</dependency>-->
+                    <!--</dependencies>-->
                 </plugin>
                 <!--Add JavaDoc and sources to build, to go in a maven repository-->
                 <plugin>
