@@ -117,7 +117,7 @@
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId> junit-jupiter-params</artifactId>
+            <artifactId>junit-jupiter-params</artifactId>
         </dependency>
 
     </dependencies>
@@ -155,10 +155,11 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
+                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
-                <artifactId> junit-jupiter-params</artifactId>
+                <artifactId>junit-jupiter-params</artifactId>
                 <version>${junit.jupiter.version}</version>
                 <scope>test</scope>
             </dependency>
@@ -174,12 +175,14 @@
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-engine</artifactId>
                 <version>${junit.jupiter.version}</version>
+                <scope>test</scope>
             </dependency>
             <!-- Only required to run tests in an IDE that bundles an older version -->
             <dependency>
                 <groupId>org.junit.vintage</groupId>
                 <artifactId>junit-vintage-engine</artifactId>
                 <version>${junit.vintage.version}</version>
+                <scope>test</scope>
             </dependency>
 
             <dependency>
@@ -757,11 +760,11 @@
                         </properties>
                     </configuration>
                     <!--<dependencies>-->
-                        <!--<dependency>-->
-                            <!--<groupId>org.junit.platform</groupId>-->
-                            <!--<artifactId>junit-platform-surefire-provider</artifactId>-->
-                            <!--<version>${junit.platform.version}</version>-->
-                        <!--</dependency>-->
+                    <!--<dependency>-->
+                    <!--<groupId>org.junit.platform</groupId>-->
+                    <!--<artifactId>junit-platform-surefire-provider</artifactId>-->
+                    <!--<version>${junit.platform.version}</version>-->
+                    <!--</dependency>-->
                     <!--</dependencies>-->
                 </plugin>
                 <!--Add JavaDoc and sources to build, to go in a maven repository-->
@@ -849,7 +852,6 @@
                     <url>s3://dollar-repo/snapshot</url>
                 </snapshotRepository>
             </distributionManagement>
-
 
 
             <repositories>
