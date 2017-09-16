@@ -43,7 +43,7 @@
         <maven.version>3.3.9</maven.version>
         <orientdb.version>2.0.13</orientdb.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <rest-assured.version>2.5.0</rest-assured.version>
+        <rest-assured.version>3.0.3</rest-assured.version>
         <slf4j.version>1.7.12</slf4j.version>
         <snakeyaml.version>1.15</snakeyaml.version>
         <stateless4j.version>2.5.0</stateless4j.version>
