@@ -33,7 +33,7 @@
         <httpclient.version>4.5.3</httpclient.version>
         <httpasync.version>4.1.3</httpasync.version>
         <jackson.version>2.6.1</jackson.version>
-        <jdk.version>1.8</jdk.version>
+        <jdk.version>1.9</jdk.version>
         <json.version>20160212</json.version>
         <junit.version>4.12</junit.version>
         <junit.jupiter.version>5.0.0</junit.jupiter.version>
