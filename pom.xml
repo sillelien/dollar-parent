@@ -748,7 +748,8 @@
                         <source>${jdk.version}</source>
                         <target>${jdk.version}</target>
                         <compilerArgs>
-                            <arg>--add-modules java.xml.bind</arg>
+                            <arg>--add-modules</arg>
+                            <arg>java.xml.bind</arg>
                         </compilerArgs>
                     </configuration>
                 </plugin>
