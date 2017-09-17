@@ -25,7 +25,7 @@ and
         <dependency>
             <groupId>com.sillelien</groupId>
             <artifactId>dollar-parent</artifactId>
-            <version>0.3.125</version>
+            <version>0.3.127</version>
         </dependency>
 ```
 
