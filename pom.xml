@@ -747,6 +747,9 @@
                     <configuration>
                         <source>${jdk.version}</source>
                         <target>${jdk.version}</target>
+                        <compilerArgs>
+                            <arg>--add-modules java.xml.bind</arg>
+                        </compilerArgs>
                     </configuration>
                 </plugin>
 
@@ -762,7 +765,7 @@
                         </includes>
                         <forkCount>4</forkCount>
                         <reuseForks>true</reuseForks>
-                        <argLine>-Xmx256m</argLine>
+                        <argLine>-Xmx256m --add-modules java.xml.bind</argLine>
                         <parallel>methods</parallel>
                         <threadCount>32</threadCount>
                         <properties>
